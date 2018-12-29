@@ -1,2 +1,2 @@
 # signalpeptides
-Predicting signal peptides - Bioinformatics project
+Predicting signal peptides - Bioinformatics project - KTH 2018
