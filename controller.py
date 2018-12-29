@@ -31,7 +31,7 @@ def getData(param=32):
     '''
     X = []
     Y = []
-    with open("onehot.txt" , 'r' ) as data:
+    with open("test.txt" , 'r' ) as data:
         content = data.readlines()
         for line in content:
             splitted = line.split("/")
