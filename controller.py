@@ -27,7 +27,7 @@ def main():
 
 def getData(param=32):
     '''
-    Retrieve data from file "onehot.txt"
+    Retrieve data from file "test.txt"
     '''
     X = []
     Y = []
