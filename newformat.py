@@ -5,13 +5,13 @@ import pandas as pd
 import numpy as np
 from newnumbered import genFile as genFile
 
-def main(arc):
+def main(arc,out):
     ff = "rawsamples.txt"
     f = open(ff, "w+")
     text = genratios(arc)
     f.write(text)
     f.close()
-    genFile(ff)
+    genFile(ff,out)
     os.remove(ff)
 
 
@@ -60,4 +60,4 @@ def syntax():
     sys.exit()
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1],sys.argv[2])

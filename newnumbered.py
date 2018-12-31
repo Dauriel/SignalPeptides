@@ -3,9 +3,9 @@ import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def genFile(file):
+def genFile(file,name):
     dic = {"A":1,"C":2,"D":3,"E":4,"F":5,"G":6,"H":7,"I":8,"K":9,"L":10,"M":11,"N":12,"P":13,"Q":14,"R":15,"S":16,"T":17,"V":18,"W":19,"Y":20, "X": 0, "U": 0}
-    t = open("human.txt", "w+") #name of the file
+    t = open(name, "w+") #name of the file
     with open(file , 'r' ) as data:
         content = data.readlines()
         text = ""
