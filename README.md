@@ -1,4 +1,5 @@
 # SignalPeptides
+*Outdated project*
 Predicting signal peptides - Bioinformatics project - KTH 2018
 
 Please download the following files and add them to the folder:
